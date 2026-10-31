@@ -1,0 +1,28 @@
+.venv/
+.venv312/
+.venv-music/
+build/
+dist/
+online_music_cache/
+__pycache__/
+*.pyc
+.DS_Store
+old_backups/
+*.before_*
+*.backup*
+*.bak
+
+# Local app data and backups
+*.db
+music_playlist.json
+music_bloom_eq.json
+*_before_*.py
+*_backup*.py
+*_old_backup*
+*.before_*
+*.bak
+*.backup*
+
+# Duplicate icon source and old playlist backup
+/MusicBloom.iconset/
+music_playlist_before_equalizer.json
